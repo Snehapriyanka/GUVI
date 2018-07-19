@@ -13,7 +13,7 @@ sum=sum+i;
 if(sum<9)
 	System.out.println(sum);
 else
-	System.out.println(sum);
+	System.out.println("invalid"+sum);
 }
 	}
 
