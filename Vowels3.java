@@ -5,7 +5,6 @@ public class Vowels3 {
 	public static void main(String[] args) {
 		boolean isVowels=false;
 		Scanner s=new Scanner(System.in);
-		System.out.println("enter the character");
 		int ch=s.next().charAt(0);
 		switch(ch)
 		{
@@ -24,9 +23,10 @@ public class Vowels3 {
 		if(isVowels==true)
 			System.out.println("vowels");
 		else if((ch>='a'&&ch<='z') || (ch>='A'&& ch<='Z'))
-			System.out.println("constant");
+			System.out.println("consonant");
 		else
 			System.out.println("invalid");
+
 
 	}
 
