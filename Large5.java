@@ -8,11 +8,11 @@ public class Large5 {
 		 a=s.nextInt();
 		 b=s.nextInt();
 		 c=s.nextInt();
-		 if(a>b)
+		 if((a>b)&&(a>c))
 			 large=a;
-			  if(b>c) 
+			  if((b>c)&&(b>a)) 
 				 large=b;
-		 if (c>a)
+		 if ((c>a)&&(c>b))
 				 large=c;
 			 System.out.println("large"+ large);
 				 
