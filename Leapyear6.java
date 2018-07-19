@@ -6,7 +6,7 @@ public class Leapyear6 {
 Scanner s=new Scanner(System.in);
 int n=s.nextInt();
 if(n%4==0)
-System.out.println("leapyear");
+System.out.println("yes");
 if(n%4!=0)
 	System.out.println("no");
 	}
